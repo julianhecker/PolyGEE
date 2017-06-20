@@ -7,12 +7,15 @@ This is a beta version of the software PolyGEE for the efficient and robust esti
 
 The command to run the tool is
 
-./estimate input_file nsums scal bivar ld_score_dim
+./estimate input_file nsums scal bivar ld_score_dim file_lengths file_haps
 
 nsums: # SNPs in the input file
 scal: scale parameter to scale the estimated LD matrices
 bivar: set this to 0 at the moment
 ld_score_dim: set this to 1 at the moment
+file_lengths: a file with 23 rows, 0 in the first 0, describing the number of SNPs for the haplotypes for each chromosome. The file corresponding to the 1000 Genomes data is in the figshare repository
+
+file_haps: a file with 22 rows, describing the file location for each chromosome-haplotype file.
 
 format of the input file:
 

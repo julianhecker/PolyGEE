@@ -13,9 +13,9 @@ nsums: # SNPs in the input file
 scal: scale parameter to scale the estimated LD matrices
 bivar: set this to 0 at the moment
 ld_score_dim: set this to 1 at the moment
-file_lengths: a file with 23 rows, 0 in the first 0, describing the number of SNPs for the haplotypes for each chromosome. The file corresponding to the 1000 Genomes data is in the figshare repository
+file_lengths: a file with 23 rows, 0 in the first 0, describing the number of SNPs for the haplotypes for each chromosome. An example file corresponding to the 1000 Genomes data is in the figshare repository. It is called "lengths_hap".
 
-file_haps: a file with 22 rows, describing the file location for each chromosome-haplotype file.
+file_haps: a file with 22 rows, describing the file location for each chromosome-haplotype file. An example file is "files_hap" in the figshare repository.
 
 format of the input file:
 

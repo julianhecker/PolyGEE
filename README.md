@@ -20,5 +20,10 @@ format of the input file:
 SNP | CHR | BP | z-score | LD-Score | index_1000Genomes | cM | cluster_id
 
 
-The information for the last 3 columns can be extracted from the "ld_panel" file in this repository.
+The information for the last 3 columns can be extracted from the "ld_database" file in the figshare reppsitory
+
+https://figshare.com/account/home
+
 The input file should have more than 600k SNPs.
+
+IMPORTANT: the executable requires the GSL library and the 1000 Genomes data

@@ -48,3 +48,5 @@ file_haps: a file with 22 rows, describing the file location for each chromosome
 
 
 IMPORTANT: the executable requires the GSL library and the 1000 Genomes data. You can compile the tool using the make_file.
+
+Output: The tool provides the estimates for 1+Na and for h^2 * C_study with standard error in brackets.

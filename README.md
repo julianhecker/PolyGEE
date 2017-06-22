@@ -57,4 +57,8 @@ To reproduce the real data results for the population-based studies, please down
 
 http://www.med.unc.edu/pgc/results-and-downloads
 
-and prepare the input according to the description above.
+and prepare the input according to the description above. The same holds true for the family-based autism data from
+
+https://www.ncbi.nlm.nih.gov/gap
+
+

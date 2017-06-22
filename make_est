@@ -1,0 +1,16 @@
+# ...
+CC=g++
+# ...
+CFLAGS= -ggdb -lgsl -lgslcblas
+
+all: exec
+
+exec: est_main.o util.o cluster.o cmatrix.o estimator.o data.o setup.o
+	$(CC) $(CFLAGS) est_main.o util.o cluster.o cmatrix.o estimator.o data.o setup.o -o estimate
+
+
+
+clean:
+	rm -rf *o estimate
+	
+	

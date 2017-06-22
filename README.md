@@ -2,7 +2,7 @@
 PolyGEE: A generalized estimating equation approach to the efficient and robust estimation of polygenic effects in large-scale association studies
 
 
-This is a test version of the software "PolyGEE" for the efficient and robust estimation of polygenic effects in large-scale association studies.
+This is a beta version of the software "PolyGEE" for the efficient and robust estimation of polygenic effects in large-scale association studies.
 
 
 ### DOWNLOAD OF EXTERNAL DATA AND PREPARATION OF INPUT
@@ -61,4 +61,6 @@ and prepare the input according to the description above. The same holds true fo
 
 https://www.ncbi.nlm.nih.gov/gap
 
+### ADDITIONAL COMMENTS
 
+Please note that the tool assumes a total of 1006 individuals in the haplotype files. We will update the tool step by step to make it more flexible.

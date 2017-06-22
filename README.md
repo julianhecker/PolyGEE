@@ -64,3 +64,5 @@ https://www.ncbi.nlm.nih.gov/gap
 ### ADDITIONAL COMMENTS
 
 Please note that the tool assumes a total of 1006 individuals in the haplotype files. We will update the tool step by step to make it more flexible.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY.
